@@ -1,6 +1,6 @@
 ## Descrição
 
-Projeto com objeto de listar ingredientes para que o usuário escolha uma lista deles e retornar receitas com esses ingredientes selecionados, ao selecionar uma receita lista os passos de preparação da receita selecionada.
+Projeto com objetivo de listar ingredientes para que o usuário faça uma seleção e retorne receitas com esses ingredientes selecionados, ao escolher uma receita da lista será exibido os passos de preparação da receita.
 
 ## Preparação do projeto
 
