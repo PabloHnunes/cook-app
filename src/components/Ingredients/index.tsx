@@ -1,10 +1,29 @@
-import { Pressable, Image, Text } from "react-native";
+import { ScrollView } from "react-native";
 
-export function Ingredient() {
+import { services } from "@/services";
+
+import { styles } from "./styles";
+import { Ingredient, IngredientProps } from "@/components/Ingredient";
+
+type Props = {
+  ingredients: IngredientProps[];
+};
+
+export function Ingredients({ ingredients }: Props) {
   return (
-    <Pressable>
-      <Image />
-      <Text>Maça</Text>
-    </Pressable>
+    <ScrollView
+      horizontal
+      style={styles.container}
+      contentContainerStyle={styles.ingredientsContent}
+      showsHorizontalScrollIndicator={false}
+    >
+      {ingredients.map((ingredient) => (
+        <Ingredient
+          key={ingredient.name}
+          name={ingredient.name}
+          image={`${services.storage.imagePath}/${ingredient.image}`}
+        />
+      ))}
+    </ScrollView>
   );
 }
