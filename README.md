@@ -9,10 +9,11 @@ Projeto com objeto de listar ingredientes para que o usuário escolha uma lista 
 - ``npm run android``
 
 ## Ferramentas e Tecnologias
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" width="40" height="40"/>
-
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="40" height="40" />
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="40" height="40"/>
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" width="40" height="40"/>
-<img loading="lazy" src="https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor" width="40" height="40"/>
-<img loading="lazy" src="https://static-00.iconduck.com/assets.00/file-type-expo-icon-1807x2048-zlqoaiu7.png" width="40" height="40"/>
+<div style="display: flex; justify-content: space-around;">
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" width="40" height="40"/>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="40" height="40" />
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="40" height="40"/>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" width="40" height="40"/>
+  <img loading="lazy" src="https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor" width="40" height="40"/>
+  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/file-type-expo-icon-1807x2048-zlqoaiu7.png" width="40" height="40"/>
+</div>
